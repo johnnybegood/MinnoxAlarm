@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBG.Minnox.AlarmModule", "JBG.Minnox.AlarmModule\JBG.Minnox.AlarmModule.csproj", "{9C40D9A8-E417-4936-B151-D3E37B024131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBG.Minnox.Director", "JBG.Minnox.Director\JBG.Minnox.Director.csproj", "{AE692B5B-A38F-44FC-BBD3-50979A97935B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBG.Minnox.Alarm", "JBG.Minnox.Alarm\JBG.Minnox.Alarm.csproj", "{A4557149-95FC-4AEA-A0F6-67490B83AD45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C40D9A8-E417-4936-B151-D3E37B024131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C40D9A8-E417-4936-B151-D3E37B024131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C40D9A8-E417-4936-B151-D3E37B024131}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9C40D9A8-E417-4936-B151-D3E37B024131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C40D9A8-E417-4936-B151-D3E37B024131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C40D9A8-E417-4936-B151-D3E37B024131}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AE692B5B-A38F-44FC-BBD3-50979A97935B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE692B5B-A38F-44FC-BBD3-50979A97935B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE692B5B-A38F-44FC-BBD3-50979A97935B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE692B5B-A38F-44FC-BBD3-50979A97935B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4557149-95FC-4AEA-A0F6-67490B83AD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4557149-95FC-4AEA-A0F6-67490B83AD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4557149-95FC-4AEA-A0F6-67490B83AD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4557149-95FC-4AEA-A0F6-67490B83AD45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

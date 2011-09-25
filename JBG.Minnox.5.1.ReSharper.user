@@ -1,0 +1,459 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:AlarmStatus.cs" caret="93" fromTop="4" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:ValidateCodeResult.cs" caret="191" fromTop="7" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:IIndicatorUpdate.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:InvalidLoginAttemptStatus.cs" caret="236" fromTop="8" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:IUserStore.cs" caret="108" fromTop="4" />
+      <File id="9C40D9A8-E417-4936-B151-D3E37B024131/f:Program.cs" caret="1360" fromTop="26" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:IIndicatorDispatcher.cs" caret="110" fromTop="4" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:IAlarm.cs" caret="403" fromTop="14" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:IKeypad.cs" caret="72" fromTop="2" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:InvalidLoginAttemptCommand.cs" caret="328" fromTop="12" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:IndicatorDispatcher.cs" caret="512" fromTop="18" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:TurnOffCommand.cs" caret="573" fromTop="17" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:TurnedOffIndicatorUpdate.cs" caret="372" fromTop="15" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:TurnedOnIndicatorUpdate.cs" caret="356" fromTop="14" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:CommandHandler.cs" caret="328" fromTop="14" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:ICommandHandler.cs" caret="170" fromTop="8" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:IIndicator.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:IDevice.cs" caret="100" fromTop="4" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:IRuntimeDevice.cs" caret="165" fromTop="10" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Extensions/f:DeviceSelector.cs" caret="862" fromTop="28" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1763" fromTop="25" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Detector/f:Window.cs" caret="1152" fromTop="36" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Keypad/f:MatrixKeypad.cs" caret="103" fromTop="2" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:DebugIndicator.cs" caret="505" fromTop="18" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:TurnOnCommand.cs" caret="545" fromTop="15" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:SwitchOnOffCommand.cs" caret="675" fromTop="22" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:IDetector.cs" caret="0" fromTop="0" />
+      <File id="9C40D9A8-E417-4936-B151-D3E37B024131/f:UserStore.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:DetectorTriggerdCommand.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:ICommand.cs" caret="33" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:TurnOffCommand.cs" caret="559" fromTop="19" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:TurnOnCommand.cs" caret="624" fromTop="20" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:TurnedOffIndicatorUpdate.cs" caret="160" fromTop="7" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:TurnedOnIndicatorUpdate.cs" caret="325" fromTop="13" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:CommandHandler.cs" caret="423" fromTop="11" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:CommandHandler.cs" caret="67" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:CommandHandler.cs" caret="251" fromTop="9" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:CommandHandler.cs" caret="404" fromTop="14" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:IDevice.cs" caret="162" fromTop="6" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="582" fromTop="13" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:IRuntimeDevice.cs" caret="100" fromTop="5" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="2025" fromTop="33" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Extensions/f:DeviceSelector.cs" caret="834" fromTop="28" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Extensions/f:DeviceSelector.cs" caret="1023" fromTop="33" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1902" fromTop="34" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1650" fromTop="28" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="467" fromTop="11" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Detector/f:Window.cs" caret="1031" fromTop="21" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Detector/f:Window.cs" caret="919" fromTop="22" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Detector/f:Window.cs" caret="1184" fromTop="27" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Detector/f:Window.cs" caret="1185" fromTop="15" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:DetectorTriggerdCommand.cs" caret="120" fromTop="5" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:DebugIndicator.cs" caret="197" fromTop="7" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:DebugIndicator.cs" caret="505" fromTop="18" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Keypad/f:MatrixKeypad.cs" caret="240" fromTop="8" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Keypad/f:MatrixKeypad.cs" caret="908" fromTop="22" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Keypad/f:MatrixKeypad.cs" caret="2034" fromTop="24" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Keypad/f:MatrixKeypad.cs" caret="103" fromTop="2" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:ICommand.cs" caret="130" fromTop="7" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:ICommand.cs" caret="33" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Microsoft" priority="3" />
+      <Item value="SPOT" priority="3" />
+      <Item value="Messaging" priority="2" />
+      <Item value="EndPoint`0" priority="0" />
+      <Item value="EventArgs`0" priority="0" />
+      <Item value="new" priority="49" />
+      <Item value="EndPoint" priority="0" />
+      <Item value="Hardware" priority="1" />
+      <Item value="inputPort" priority="1" />
+      <Item value="InputPort" priority="1" />
+      <Item value="Tahoe`0" priority="2" />
+      <Item value="Meridian`0" priority="2" />
+      <Item value="true" priority="8" />
+      <Item value="Disabled" priority="4" />
+      <Item value="while" priority="1" />
+      <Item value="RuntimeArgumentHandle`0" priority="0" />
+      <Item value="Debug`0" priority="9" />
+      <Item value="InterruptPort`0" priority="2" />
+      <Item value="InterruptPort" priority="0" />
+      <Item value="InterruptEdgeHigh" priority="1" />
+      <Item value="time" priority="0" />
+      <Item value="static" priority="1" />
+      <Item value="void" priority="10" />
+      <Item value="port" priority="1" />
+      <Item value="var" priority="14" />
+      <Item value="Port`0" priority="1" />
+      <Item value="closePort" priority="0" />
+      <Item value="if" priority="30" />
+      <Item value="data2" priority="4" />
+      <Item value="else" priority="2" />
+      <Item value="window" priority="1" />
+      <Item value="AlarmModule" priority="0" />
+      <Item value="Detector`0" priority="0" />
+      <Item value="alarm" priority="20" />
+      <Item value="pin" priority="2" />
+      <Item value="IDetector`0" priority="1" />
+      <Item value="windowPort" priority="1" />
+      <Item value="event" priority="1" />
+      <Item value="prop" priority="4" />
+      <Item value="bool" priority="5" />
+      <Item value="defaultClosed" priority="1" />
+      <Item value="_closedState" priority="3" />
+      <Item value="throw" priority="0" />
+      <Item value="StatusChanged" priority="0" />
+      <Item value="StatusChangedHandlerArgs" priority="0" />
+      <Item value="ctor" priority="6" />
+      <Item value="Alarm" priority="1" />
+      <Item value="isAlarm" priority="0" />
+      <Item value="IDetector" priority="1" />
+      <Item value="_alarm" priority="7" />
+      <Item value="this" priority="1" />
+      <Item value="string" priority="22" />
+      <Item value="detector" priority="1" />
+      <Item value="return" priority="21" />
+      <Item value="_port" priority="0" />
+      <Item value="private" priority="2" />
+      <Item value="readonly" priority="0" />
+      <Item value="_defaultClosed" priority="2" />
+      <Item value="uint" priority="0" />
+      <Item value="GetTriggerData2Value`0" priority="0" />
+      <Item value="IsInTriggerdState`0" priority="0" />
+      <Item value="_isOn" priority="7" />
+      <Item value="false" priority="6" />
+      <Item value="foreach" priority="11" />
+      <Item value="in" priority="0" />
+      <Item value="volumeInfo" priority="1" />
+      <Item value="InputPort`0" priority="3" />
+      <Item value="readPort" priority="1" />
+      <Item value="ReadAnalog" priority="1" />
+      <Item value="Initialize`0" priority="0" />
+      <Item value="Alarm`0" priority="0" />
+      <Item value="AlarmConfig`0" priority="0" />
+      <Item value="config" priority="1" />
+      <Item value="_config" priority="7" />
+      <Item value="_connector" priority="4" />
+      <Item value="networkInterface" priority="5" />
+      <Item value="interfaces" priority="0" />
+      <Item value="null" priority="3" />
+      <Item value="_interface" priority="2" />
+      <Item value="GetInterface`0" priority="0" />
+      <Item value="_serverAddress" priority="0" />
+      <Item value="HttpWebRequest`0" priority="0" />
+      <Item value="request" priority="3" />
+      <Item value="response" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="JsonResult`0" priority="0" />
+      <Item value="Json`0" priority="0" />
+      <Item value="Assembly`0" priority="0" />
+      <Item value="AssemblyVersionAttribute`0" priority="0" />
+      <Item value="HttpGet" priority="0" />
+      <Item value="AllowGet" priority="0" />
+      <Item value="public" priority="15" />
+      <Item value="interface" priority="2" />
+      <Item value="IAlarm`0" priority="4" />
+      <Item value="keyStore" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="turnedOn" priority="0" />
+      <Item value="Hashtable" priority="1" />
+      <Item value="_codes" priority="3" />
+      <Item value="Keypad`0" priority="0" />
+      <Item value="UserStore`0" priority="2" />
+      <Item value="char" priority="10" />
+      <Item value="const" priority="0" />
+      <Item value="pins" priority="0" />
+      <Item value="MTAThreadAttribute`0" priority="0" />
+      <Item value="_currPort" priority="1" />
+      <Item value="_colPins" priority="0" />
+      <Item value="Length" priority="2" />
+      <Item value="_inputPorts" priority="1" />
+      <Item value="GetValue`0" priority="0" />
+      <Item value="index" priority="1" />
+      <Item value="interruptPort" priority="3" />
+      <Item value="outputPort" priority="0" />
+      <Item value="Thread`0" priority="3" />
+      <Item value="_keyMap" priority="0" />
+      <Item value="_colPorts" priority="1" />
+      <Item value="_rowPorts" priority="3" />
+      <Item value="OutputPort" priority="1" />
+      <Item value="colPins" priority="0" />
+      <Item value="rowPins" priority="0" />
+      <Item value="SimpleKeysKeyMap`0" priority="0" />
+      <Item value="row" priority="1" />
+      <Item value="col" priority="0" />
+      <Item value="character" priority="9" />
+      <Item value="switch" priority="3" />
+      <Item value="ResetChar" priority="0" />
+      <Item value="keys" priority="0" />
+      <Item value="IKeymap`0" priority="0" />
+      <Item value="_password" priority="2" />
+      <Item value="user" priority="7" />
+      <Item value="NullReferenceException`0" priority="0" />
+      <Item value="TurnOn`0" priority="0" />
+      <Item value="Simple12KeysKeyMap`0" priority="0" />
+      <Item value="ColPins" priority="0" />
+      <Item value="KeyMap" priority="0" />
+      <Item value="RowPins" priority="0" />
+      <Item value="UserStore" priority="0" />
+      <Item value="statusUpdate" priority="9" />
+      <Item value="case" priority="5" />
+      <Item value="AlarmStatus`0" priority="5" />
+      <Item value="DebugIndicator`0" priority="0" />
+      <Item value="break" priority="3" />
+      <Item value="IStatusUpdate`0" priority="1" />
+      <Item value="TurnedOnStatusUpdate`0" priority="0" />
+      <Item value="_initiator" priority="2" />
+      <Item value="Initiator" priority="4" />
+      <Item value="initiator" priority="1" />
+      <Item value="ICommand`0" priority="0" />
+      <Item value="TurnOffCommand" priority="0" />
+      <Item value="command" priority="2" />
+      <Item value="CurrentStatus" priority="3" />
+      <Item value="Off" priority="1" />
+      <Item value="On" priority="1" />
+      <Item value="InvalidLoginAttemptCommand`0" priority="0" />
+      <Item value="as" priority="5" />
+      <Item value="IDevice`0" priority="3" />
+      <Item value="device" priority="6" />
+      <Item value="is" priority="0" />
+      <Item value="IIndicator`0" priority="7" />
+      <Item value="indicatorUpdate" priority="0" />
+      <Item value="DateTime`0" priority="0" />
+      <Item value="ValidateCodeResult" priority="0" />
+      <Item value="ValidateCode`0" priority="0" />
+      <Item value="ValidateCodeResult`0" priority="0" />
+      <Item value="result" priority="5" />
+      <Item value="code" priority="0" />
+      <Item value="indicator" priority="5" />
+      <Item value="UpdateIndicators`0" priority="0" />
+      <Item value="TurnedOnIndicatorUpdate`0" priority="1" />
+      <Item value="TurnedOffIndicatorUpdate`0" priority="0" />
+      <Item value="update" priority="2" />
+      <Item value="devices" priority="1" />
+      <Item value="alarmConfig" priority="0" />
+      <Item value="TimeSpan`0" priority="0" />
+      <Item value="T`0" priority="0" />
+      <Item value="t" priority="1" />
+      <Item value="yield return" priority="1" />
+      <Item value="IIndicatorDispatcher`0" priority="2" />
+      <Item value="indicators" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="IndicatorDispatcher`0" priority="0" />
+      <Item value="Devices" priority="0" />
+      <Item value="ArrayList`0" priority="1" />
+      <Item value="ArrayList" priority="1" />
+      <Item value="tempList" priority="0" />
+      <Item value="IEnumerable`0" priority="0" />
+      <Item value="type" priority="0" />
+      <Item value="list" priority="3" />
+      <Item value="IIndicator" priority="0" />
+      <Item value="typeof" priority="0" />
+      <Item value="dispatcher" priority="0" />
+      <Item value="IndicatorDispatcher" priority="0" />
+      <Item value="ICommandHandler`0" priority="3" />
+      <Item value="CommandHandler`0" priority="0" />
+      <Item value="_handler" priority="0" />
+      <Item value="DeviceSelector`0" priority="0" />
+      <Item value="IRuntimeDevice`0" priority="3" />
+      <Item value="handler" priority="1" />
+      <Item value="_detector" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DeviceSolutions.SPOT.Hardware.Tahoe">
+      <Item value="Pins`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DeviceSolutions.SPOT.Hardware.Tahoe+Pins">
+      <Item value="SW9" priority="0" />
+      <Item value="SW1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DeviceSolutions.SPOT.Hardware.Meridian">
+      <Item value="Pins`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DeviceSolutions.SPOT.Hardware.Meridian+Pins">
+      <Item value="GPIO1" priority="4" />
+      <Item value="GPIO3" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SPOT.Hardware.InputPort">
+      <Item value="OnInterrupt" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.SPOT.Debug">
+      <Item value="Print`0" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.SPOT.Hardware.Port+ResistorMode">
+      <Item value="PullDown" priority="4" />
+      <Item value="Disabled" priority="2" />
+      <Item value="PullUp" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString`0" priority="0" />
+      <Item value="ToLocalTime`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.SPOT.Hardware.Port">
+      <Item value="InterruptMode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.SPOT.Hardware.Port+InterruptMode">
+      <Item value="InterruptEdgeLevelLow" priority="1" />
+      <Item value="InterruptEdgeBoth" priority="0" />
+      <Item value="InterruptEdgeLow" priority="1" />
+      <Item value="InterruptEdgeHigh" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SPOT.Hardware.InterruptPort">
+      <Item value="Interrupt" priority="2" />
+      <Item value="OnInterrupt" priority="2" />
+      <Item value="Read`0" priority="3" />
+      <Item value="Id" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JBG.Minnox.AlarmModule.IDetector">
+      <Item value="Name" priority="0" />
+      <Item value="Initialize`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.SPOT.IO.VolumeInfo">
+      <Item value="GetVolumes`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SPOT.IO.VolumeInfo">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JBG.Minnox.AlarmModule.AlarmConfig">
+      <Item value="Detectors" priority="0" />
+      <Item value="ServerAddress" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.SPOT.Net.NetworkInformation.NetworkInterface">
+      <Item value="GetAllNetworkInterfaces`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SPOT.Net.NetworkInformation.NetworkInterface">
+      <Item value="IPAddress" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="5" />
+      <Item value="Concat`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.WebRequest">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.HttpWebRequest">
+      <Item value="Method" priority="0" />
+      <Item value="GetResponse`0" priority="0" />
+      <Item value="Timeout" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.WebResponse">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.Assembly">
+      <Item value="GetEntryAssembly`0" priority="2" />
+      <Item value="GetCallingAssembly`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Assembly">
+      <Item value="ManifestModule" priority="0" />
+      <Item value="GetCustomAttributes`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Hashtable">
+      <Item value="Contains`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="CurrentThread" priority="0" />
+      <Item value="Sleep`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SPOT.Hardware.OutputPort">
+      <Item value="Id" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@JBG.Minnox.Alarm.Devices.SimpleKeysKeyMap">
+      <Item value="Simple12Keys" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Devices.Keypad.MatrixKeypadConfig">
+      <Item value="KeyMap" priority="3" />
+      <Item value="ResetChar" priority="0" />
+      <Item value="UserStore" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Contracts.IKeymap">
+      <Item value="CancelKey" priority="1" />
+      <Item value="Keys" priority="0" />
+      <Item value="ConfirmKey" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Contracts.IUserStore">
+      <Item value="ValidateCode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Length" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Char">
+      <Item value="MaxValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Contracts.StatusUpdate">
+      <Item value="CurrentStatus" priority="0" />
+      <Item value="Initiator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@JBG.Minnox.Alarm.Contracts.AlarmStatus">
+      <Item value="Off" priority="1" />
+      <Item value="On" priority="1" />
+      <Item value="Busy" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Logging.IStatusUpdate">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Contracts.IAlarm">
+      <Item value="CurrentStatus" priority="3" />
+      <Item value="Receive`0" priority="3" />
+      <Item value="TurnOn`0" priority="0" />
+      <Item value="Trigger`0" priority="1" />
+      <Item value="UpdateIndicators`0" priority="1" />
+      <Item value="IndicatorDispatcher" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Commands.ICommand">
+      <Item value="ToString`0" priority="0" />
+      <Item value="Trigger`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Contracts.ValidateCodeResult">
+      <Item value="IsValidCode" priority="2" />
+      <Item value="ValidatedUser" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Contracts.AlarmConfig">
+      <Item value="Devices" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Devices.Indicators.IIndicator">
+      <Item value="ReceiveStatusUpdate`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Today" priority="0" />
+      <Item value="Now" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@JBG.Minnox.Alarm.Extensions.DeviceSelector">
+      <Item value="GetDevicesOfType`1" priority="0" />
+      <Item value="GetIndicators`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ArrayList">
+      <Item value="Add`0" priority="1" />
+      <Item value="ToArray`0" priority="3" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Contracts.ICommandHandler">
+      <Item value="Handle`0" priority="2" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
