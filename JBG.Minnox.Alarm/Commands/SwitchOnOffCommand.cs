@@ -4,15 +4,13 @@ namespace JBG.Minnox.Alarm.Commands
 {
     public class SwitchOnOffCommand : ICommand
     {
-        private IAlarm _alarm;
+        private readonly string _initiator;
 
         public SwitchOnOffCommand(string initiator)
         {
-            Initiator = initiator;
+            _initiator = initiator;
         }
-
-        public string Initiator { get; private set; }
-
+        
         #region ICommand Members
 
         public void Execute(IAlarm alarm)
@@ -20,10 +18,11 @@ namespace JBG.Minnox.Alarm.Commands
             switch (alarm.CurrentStatus)
             {
                 case AlarmStatus.On:
-                    alarm.Receive(new TurnOffCommand(Initiator));
+                case AlarmStatus.Triggerd:
+                    alarm.Receive(new TurnOffCommand(_initiator));
                     break;
                 case AlarmStatus.Off:
-                    alarm.Receive(new TurnOnCommand(Initiator));
+                    alarm.Receive(new TurnOnCommand(_initiator));
                     break;
             }
         }

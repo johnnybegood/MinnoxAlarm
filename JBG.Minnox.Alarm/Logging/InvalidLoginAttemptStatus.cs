@@ -2,7 +2,7 @@
 
 namespace JBG.Minnox.Alarm.Logging
 {
-    public class InvalidLoginAttemptStatus : IIndicatorUpdate
+    public class InvalidLoginAttemptStatus : IEvent
     {
         public string Message
         {

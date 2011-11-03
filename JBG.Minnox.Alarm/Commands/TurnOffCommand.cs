@@ -12,12 +12,10 @@ namespace JBG.Minnox.Alarm.Commands
             _initiator = initiator;
         }
 
-        public IIndicatorUpdate IndicatorUpdate { get { return new TurnedOnIndicatorUpdate(_initiator); }}
-
         public void Execute(IAlarm alarm)
         {
             alarm.TurnOff();
-            alarm.IndicatorDispatcher.Dispatch(new TurnedOffIndicatorUpdate(_initiator));
+            alarm.EventDispatcher.Dispatch(new DeactivatedEvent(_initiator));
         }
     }
 }

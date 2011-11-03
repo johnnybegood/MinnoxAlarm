@@ -6,12 +6,12 @@ namespace JBG.Minnox.Alarm.Contracts
 {
     public interface IAlarm
     {
-        void Trigger(IDetector detector);
+        void Trigger();
         AlarmStatus CurrentStatus { get; }
         void Receive(ICommand command);
         void TurnOn();
         void TurnOff();
 
-        IIndicatorDispatcher IndicatorDispatcher { get; }
+        IEventDispatcher EventDispatcher { get; }
     }
 }

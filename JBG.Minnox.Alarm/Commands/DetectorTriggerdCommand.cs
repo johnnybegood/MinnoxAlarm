@@ -1,5 +1,6 @@
 ﻿using JBG.Minnox.Alarm.Contracts;
 using JBG.Minnox.Alarm.Devices;
+using JBG.Minnox.Alarm.Logging;
 
 namespace JBG.Minnox.Alarm.Commands
 {
@@ -14,7 +15,10 @@ namespace JBG.Minnox.Alarm.Commands
 
         public void Execute(IAlarm alarm)
         {
-            alarm.Trigger(_detector);
+            if (alarm.CurrentStatus != AlarmStatus.On) return;
+
+            alarm.Trigger();
+            alarm.EventDispatcher.Dispatch(new AlarmTriggerdEvent(_detector));
         }
     }
 }

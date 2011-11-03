@@ -6,5 +6,6 @@
         On = 1,
         Busy = 2,
         Error = 4,
+        Triggerd = 8
     }
 }

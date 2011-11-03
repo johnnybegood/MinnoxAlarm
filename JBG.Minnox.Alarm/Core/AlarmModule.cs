@@ -1,10 +1,8 @@
 ﻿using JBG.Minnox.Alarm.Commands;
 using JBG.Minnox.Alarm.Contracts;
 using JBG.Minnox.Alarm.Devices;
-using JBG.Minnox.Alarm.Devices.Indicators;
-using JBG.Minnox.Alarm.Extensions;
+using JBG.Minnox.Alarm.Helpers;
 using JBG.Minnox.Alarm.Logging;
-using Microsoft.SPOT;
 
 namespace JBG.Minnox.Alarm.Core
 {
@@ -20,20 +18,20 @@ namespace JBG.Minnox.Alarm.Core
             _handler = new CommandHandler(this);
             CurrentStatus = AlarmStatus.Off;
             _connector = new ServerConnector(_config.ServerAddress);
-            IndicatorDispatcher = new IndicatorDispatcher(DeviceSelector.GetIndicators(_config.Devices));
+            EventDispatcher = new EventDispatcher(DeviceSelector.GetIndicators(_config.Devices));
 
             Initialize();
         }
 
         #region IAlarm Members
 
-        public void Trigger(IDetector detector)
-        {
-            if (CurrentStatus == AlarmStatus.On)
-                Debug.Print("Alarm triggerd on: " + detector.Name);
-        }
-
         public AlarmStatus CurrentStatus { get; private set; }
+        public IEventDispatcher EventDispatcher { get; private set; }
+
+        public void Trigger()
+        {
+            CurrentStatus = AlarmStatus.Triggerd;
+        }
 
         public void Receive(ICommand command)
         {
@@ -50,26 +48,23 @@ namespace JBG.Minnox.Alarm.Core
             CurrentStatus = AlarmStatus.Off;
         }
 
-        public IIndicatorDispatcher IndicatorDispatcher { get; private set; }
-
         #endregion
 
         private void Initialize()
         {
-            foreach (var sensor in _config.Devices)
+            foreach (IActor sensor in DeviceSelector.GetActors(_config.Devices))
                 sensor.Initialize(_handler);
 
             _connector.Connect();
+            new BootCommand().Execute(this);
         }
 
         public void Loop()
         {
-            var runtimeDevices = DeviceSelector.GetRuntimeDevices(_config.Devices);
+            IRuntimeDevice[] runtimeDevices = DeviceSelector.GetRuntimeDevices(_config.Devices);
 
-            foreach (var device in runtimeDevices)
-            {
+            foreach (IRuntimeDevice device in runtimeDevices)
                 device.Loop();
-            }
         }
     }
 }

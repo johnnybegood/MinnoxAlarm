@@ -1,5 +1,4 @@
-﻿using System;
-using JBG.Minnox.Alarm.Devices;
+﻿using JBG.Minnox.Alarm.Devices;
 
 namespace JBG.Minnox.Alarm.Contracts
 {

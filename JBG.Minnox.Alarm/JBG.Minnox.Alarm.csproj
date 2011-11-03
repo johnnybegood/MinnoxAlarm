@@ -30,6 +30,7 @@
   </PropertyGroup>
   <Import Project="$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets" />
   <ItemGroup>
+    <Compile Include="Commands\BootCommand.cs" />
     <Compile Include="Commands\DetectorTriggerdCommand.cs" />
     <Compile Include="Commands\InvalidLoginAttemptCommand.cs" />
     <Compile Include="Commands\TurnOffCommand.cs" />
@@ -44,24 +45,28 @@
     <Compile Include="Contracts\ValidateCodeResult.cs" />
     <Compile Include="Core\CommandHandler.cs" />
     <Compile Include="Devices\Detector\Window.cs" />
+    <Compile Include="Devices\IActor.cs" />
     <Compile Include="Devices\IDetector.cs" />
     <Compile Include="Devices\IDevice.cs" />
     <Compile Include="Devices\IKeymap.cs" />
     <Compile Include="Devices\IKeypad.cs" />
     <Compile Include="Devices\Indicators\DebugIndicator.cs" />
     <Compile Include="Devices\Indicators\IIndicator.cs" />
+    <Compile Include="Devices\Indicators\RedGreenIndicator.cs" />
     <Compile Include="Devices\IRuntimeDevice.cs" />
     <Compile Include="Devices\Keypad\MatrixKeypad.cs" />
     <Compile Include="Devices\Keypad\MatrixKeypadConfig.cs" />
     <Compile Include="Devices\Keypad\SimpleKeysKeyMap.cs" />
-    <Compile Include="Extensions\DeviceSelector.cs" />
-    <Compile Include="Extensions\Input.cs" />
-    <Compile Include="Logging\IIndicatorDispatcher.cs" />
-    <Compile Include="Logging\IIndicatorUpdate.cs" />
-    <Compile Include="Logging\IndicatorDispatcher.cs" />
+    <Compile Include="Helpers\DeviceSelector.cs" />
+    <Compile Include="Helpers\Input.cs" />
+    <Compile Include="Logging\AlarmTriggerdEvent.cs" />
+    <Compile Include="Logging\BootEvent.cs" />
+    <Compile Include="Logging\IEventDispatcher.cs" />
+    <Compile Include="Logging\IEvent.cs" />
+    <Compile Include="Logging\EventDispatcher.cs" />
     <Compile Include="Logging\InvalidLoginAttemptStatus.cs" />
-    <Compile Include="Logging\TurnedOffIndicatorUpdate.cs" />
-    <Compile Include="Logging\TurnedOnIndicatorUpdate.cs" />
+    <Compile Include="Logging\DeactivatedEvent.cs" />
+    <Compile Include="Logging\ActivatedEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Core\AlarmModule.cs" />
     <Compile Include="Core\ServerConnector.cs" />

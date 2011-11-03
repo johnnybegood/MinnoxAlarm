@@ -1,7 +1,7 @@
 using System.Threading;
 using Microsoft.SPOT.Hardware;
 
-namespace JBG.Minnox.Alarm.Extensions
+namespace JBG.Minnox.Alarm.Helpers
 {
    public static class Input
     {

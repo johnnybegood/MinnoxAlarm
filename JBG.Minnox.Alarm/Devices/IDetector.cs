@@ -2,7 +2,7 @@
 
 namespace JBG.Minnox.Alarm.Devices
 {
-    public interface IDetector : IDevice
+    public interface IDetector : IActor
     {
         string Name { get; }
         bool IsInTriggerdState();

@@ -1,16 +1,16 @@
 ﻿using JBG.Minnox.Alarm.Commands;
 using JBG.Minnox.Alarm.Contracts;
-using JBG.Minnox.Alarm.Extensions;
+using JBG.Minnox.Alarm.Helpers;
 using Microsoft.SPOT.Hardware;
 
 namespace JBG.Minnox.Alarm.Devices.Keypad
 {
     public class MatrixKeypad : IKeypad, IRuntimeDevice
     {
-        private readonly MatrixKeypadConfig _config;
-        private ICommandHandler _handler;
         private readonly OutputPort[] _colPorts;
+        private readonly MatrixKeypadConfig _config;
         private readonly InputPort[] _rowPorts;
+        private ICommandHandler _handler;
         private string _password;
 
         public MatrixKeypad(MatrixKeypadConfig config)
@@ -22,32 +22,21 @@ namespace JBG.Minnox.Alarm.Devices.Keypad
             CreateColPorts(config.ColPins);
             CreateRowPorts(config.RowPins);
         }
-        
+
+        #region IKeypad Members
+
         public void Initialize(ICommandHandler handler)
         {
             _handler = handler;
         }
 
-        private void CreateRowPorts(Cpu.Pin[] rowPins)
-        {
-            for (var index = 0; index < rowPins.Length; index++)
-            {
-                var pin = rowPins[index];
-                _rowPorts[index] = new InputPort(pin, true, Port.ResistorMode.PullUp);
-            }
-        }
+        #endregion
 
-        private void CreateColPorts(Cpu.Pin[] colPins)
-        {
-            for (var index = 0; index < colPins.Length; index++)
-            {
-                _colPorts[index] = new OutputPort(colPins[index], true);
-            }
-        }
+        #region IRuntimeDevice Members
 
         public void Loop()
         {
-            var character = GetChar();
+            char character = GetChar();
 
             if (character == _config.KeyMap.CancelKey)
             {
@@ -55,13 +44,13 @@ namespace JBG.Minnox.Alarm.Devices.Keypad
             }
             else if (character == _config.KeyMap.ConfirmKey)
             {
-                var user = _config.UserStore.ValidateCode(_password);
+                ValidateCodeResult user = _config.UserStore.ValidateCode(_password);
 
                 if (user.IsValidCode)
                     _handler.Handle(new SwitchOnOffCommand(user.ValidatedUser));
                 else
                     _handler.Handle(new InvalidLoginAttemptCommand());
-                
+
                 _password = string.Empty;
             }
             else if (character != char.MaxValue)
@@ -70,16 +59,35 @@ namespace JBG.Minnox.Alarm.Devices.Keypad
             }
         }
 
+        #endregion
+
+        private void CreateRowPorts(Cpu.Pin[] rowPins)
+        {
+            for (int index = 0; index < rowPins.Length; index++)
+            {
+                Cpu.Pin pin = rowPins[index];
+                _rowPorts[index] = new InputPort(pin, true, Port.ResistorMode.PullUp);
+            }
+        }
+
+        private void CreateColPorts(Cpu.Pin[] colPins)
+        {
+            for (int index = 0; index < colPins.Length; index++)
+            {
+                _colPorts[index] = new OutputPort(colPins[index], true);
+            }
+        }
+
         private char GetChar()
         {
-            for (var col = 0; col < _colPorts.Length; col++)
+            for (int col = 0; col < _colPorts.Length; col++)
             {
-                var outputPort = _colPorts[col];
+                OutputPort outputPort = _colPorts[col];
                 outputPort.Write(false);
 
-                for (var row = 0; row < _rowPorts.Length; row++)
+                for (int row = 0; row < _rowPorts.Length; row++)
                 {
-                    var interruptPort = _rowPorts[row];
+                    InputPort interruptPort = _rowPorts[row];
 
                     if (Input.DebounceReadLow(interruptPort))
                     {

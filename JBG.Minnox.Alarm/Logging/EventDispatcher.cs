@@ -3,20 +3,20 @@ using JBG.Minnox.Alarm.Devices.Indicators;
 
 namespace JBG.Minnox.Alarm.Logging
 {
-    public class IndicatorDispatcher : IIndicatorDispatcher
+    public class EventDispatcher : IEventDispatcher
     {
         private readonly IEnumerable _indicators;
 
-        public IndicatorDispatcher(IEnumerable indicators)
+        public EventDispatcher(IEnumerable indicators)
         {
             _indicators = indicators;
         }
 
-        public void Dispatch(IIndicatorUpdate update)
+        public void Dispatch(IEvent update)
         {
             foreach (IIndicator indicator in _indicators)
             {
-                indicator.ReceiveStatusUpdate(update);
+                indicator.ReceiveEvent(update);
             }
         }
     }

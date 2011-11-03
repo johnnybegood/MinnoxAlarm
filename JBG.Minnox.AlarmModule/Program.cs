@@ -11,7 +11,7 @@ namespace JBG.Minnox.AlarmModule
     {
         public static void Main()
         {
-            AlarmConfig config = ConfigAlarm();
+            var config = ConfigAlarm();
 
             var alarm = new Alarm.Core.AlarmModule(config);
 
@@ -49,7 +49,8 @@ namespace JBG.Minnox.AlarmModule
                                          {
                                              new Window(Meridian.Pins.GPIO1, true, "Bureau"),
                                              new MatrixKeypad(matrixKeypadConfig),
-                                             new DebugIndicator()
+                                             new DebugIndicator(),
+                                             new RedGreenIndicator(Meridian.Pins.GPIO2, Meridian.Pins.GPIO10)
                                          },
                            ServerAddress = "192.168.1.20/JBG.Minnox.Director"
                        };

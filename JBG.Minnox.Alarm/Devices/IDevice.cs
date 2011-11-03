@@ -4,6 +4,6 @@ namespace JBG.Minnox.Alarm.Devices
 {
     public interface IDevice
     {
-        void Initialize(ICommandHandler handler);
+
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace JBG.Minnox.Alarm.Devices
 {
-    public interface IKeypad : IDevice
+    public interface IKeypad : IActor
     {
         
     }
