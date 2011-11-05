@@ -6,17 +6,17 @@ namespace JBG.Minnox.Alarm.Helpers
 {
     public static class DeviceSelector
     {
-        public static IIndicator[] GetIndicators (IDevice[] devices)
+        public static IEventReceiver[] GetIndicators (IDevice[] devices)
         {
             var list = new ArrayList();
             foreach (var device in devices)
             {
-                var indicator = device as IIndicator;
+                var indicator = device as IEventReceiver;
 
                 if (indicator != null) list.Add(indicator);
             }
 
-            return (IIndicator[]) list.ToArray(typeof (IIndicator));
+            return (IEventReceiver[]) list.ToArray(typeof (IEventReceiver));
         }
 
         public static IRuntimeDevice[] GetRuntimeDevices(IDevice[] devices)

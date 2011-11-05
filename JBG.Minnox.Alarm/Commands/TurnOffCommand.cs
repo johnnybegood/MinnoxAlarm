@@ -14,7 +14,7 @@ namespace JBG.Minnox.Alarm.Commands
 
         public void Execute(IAlarm alarm)
         {
-            alarm.TurnOff();
+            alarm.Deactivate();
             alarm.EventDispatcher.Dispatch(new DeactivatedEvent(_initiator));
         }
     }

@@ -9,8 +9,8 @@ namespace JBG.Minnox.Alarm.Contracts
         void Trigger();
         AlarmStatus CurrentStatus { get; }
         void Receive(ICommand command);
-        void TurnOn();
-        void TurnOff();
+        void Activate();
+        void Deactivate();
 
         IEventDispatcher EventDispatcher { get; }
     }

@@ -9,68 +9,64 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:IActor.cs" caret="181" fromTop="8" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:IDevice.cs" caret="113" fromTop="6" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:IDetector.cs" caret="187" fromTop="7" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:AlarmConfig.cs" caret="0" fromTop="0" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:DebugIndicator.cs" caret="149" fromTop="5" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:IIndicator.cs" caret="126" fromTop="4" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:InvalidLoginAttemptStatus.cs" caret="87" fromTop="4" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:AlarmStatus.cs" caret="171" fromTop="8" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:AlarmTriggerdEvent.cs" caret="109" fromTop="4" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Helpers/f:Input.cs" caret="500" fromTop="22" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Helpers/f:DeviceSelector.cs" caret="549" fromTop="18" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:ValidateCodeResult.cs" caret="58" fromTop="2" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:IEventDispatcher.cs" caret="0" fromTop="0" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:DeactivatedEvent.cs" caret="312" fromTop="13" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:InvalidLoginAttemptCommand.cs" caret="0" fromTop="0" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:IAlarm.cs" caret="0" fromTop="0" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:DetectorTriggerdCommand.cs" caret="0" fromTop="0" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:ActivatedEvent.cs" caret="0" fromTop="0" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:BootEvent.cs" caret="0" fromTop="0" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:TurnOnCommand.cs" caret="553" fromTop="16" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:BootCommand.cs" caret="66" fromTop="1" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1705" fromTop="21" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:EventDispatcher.cs" caret="0" fromTop="0" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:IEvent.cs" caret="0" fromTop="0" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Keypad/f:MatrixKeypad.cs" caret="1326" fromTop="15" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:SwitchOnOffCommand.cs" caret="403" fromTop="14" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:TurnOffCommand.cs" caret="369" fromTop="15" />
-      <File id="9C40D9A8-E417-4936-B151-D3E37B024131/f:Program.cs" caret="2145" fromTop="25" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:RedGreenIndicator.cs" caret="653" fromTop="3" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Detector/f:Window.cs" caret="520" fromTop="17" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Keypad/f:MatrixKeypad.cs" caret="2159" fromTop="38" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:TurnOffCommand.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:SwitchOnOffCommand.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:DetectorTriggerdCommand.cs" caret="627" fromTop="23" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:AlarmStatus.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:TurnOnCommand.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:ActivatedEvent.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:IEventDispatcher.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:InvalidLoginEvent.cs" caret="90" fromTop="4" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:DebugEventReceiver.cs" caret="151" fromTop="5" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:EventDispatcher.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:RedGreenEventReceiver.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:IEventReceiver.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:InvalidLoginAttemptCommand.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:AlarmConfig.cs" caret="133" fromTop="6" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Helpers/f:DeviceSelector.cs" caret="1197" fromTop="24" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:IDetector.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:IActor.cs" caret="0" fromTop="0" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:IAlarm.cs" caret="394" fromTop="14" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1617" fromTop="26" />
+      <File id="9C40D9A8-E417-4936-B151-D3E37B024131/f:Program.cs" caret="1329" fromTop="4" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:InvalidLoginDetector.cs" caret="873" fromTop="11" />
     </RecentFiles>
     <RecentEdits>
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="0" fromTop="0" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1932" fromTop="68" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Helpers/f:Input.cs" caret="133" fromTop="6" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Helpers/f:Input.cs" caret="408" fromTop="18" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:RedGreenIndicator.cs" caret="1002" fromTop="21" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:RedGreenIndicator.cs" caret="1197" fromTop="37" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:SwitchOnOffCommand.cs" caret="528" fromTop="20" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:IEvent.cs" caret="0" fromTop="0" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:ActivatedEvent.cs" caret="217" fromTop="8" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:ActivatedEvent.cs" caret="360" fromTop="14" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:ActivatedEvent.cs" caret="122" fromTop="4" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:DeactivatedEvent.cs" caret="431" fromTop="6" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:DeactivatedEvent.cs" caret="431" fromTop="14" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:DeactivatedEvent.cs" caret="431" fromTop="20" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:EventDispatcher.cs" caret="156" fromTop="5" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:BootEvent.cs" caret="173" fromTop="9" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:BootEvent.cs" caret="0" fromTop="0" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1664" fromTop="28" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:BootCommand.cs" caret="148" fromTop="6" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:BootCommand.cs" caret="294" fromTop="12" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:BootCommand.cs" caret="66" fromTop="1" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:RedGreenIndicator.cs" caret="1002" fromTop="16" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:RedGreenIndicator.cs" caret="0" fromTop="0" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:RedGreenIndicator.cs" caret="397" fromTop="2" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:RedGreenIndicator.cs" caret="1197" fromTop="24" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:RedGreenIndicator.cs" caret="672" fromTop="21" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:RedGreenIndicator.cs" caret="1002" fromTop="22" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:RedGreenIndicator.cs" caret="1152" fromTop="29" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:RedGreenIndicator.cs" caret="204" fromTop="1" />
-      <File id="9C40D9A8-E417-4936-B151-D3E37B024131/f:Program.cs" caret="2133" fromTop="25" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="32" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="28" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="21" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="28" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="23" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="36" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="79" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="26" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="21" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="81" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:TurnOnCommand.cs" caret="437" fromTop="19" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="26" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:IAlarm.cs" caret="394" fromTop="14" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="13" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:InvalidLoginEvent.cs" caret="90" fromTop="4" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Indicators/f:DebugEventReceiver.cs" caret="151" fromTop="5" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="32" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="1" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="21" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="72" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="72" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="412" fromTop="9" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1617" fromTop="26" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:InvalidLoginDetector.cs" caret="383" fromTop="11" />
+      <File id="9C40D9A8-E417-4936-B151-D3E37B024131/f:Program.cs" caret="2490" fromTop="21" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:InvalidLoginDetector.cs" caret="1021" fromTop="14" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -91,7 +87,7 @@
       <Item value="Messaging" priority="2" />
       <Item value="EndPoint`0" priority="0" />
       <Item value="EventArgs`0" priority="0" />
-      <Item value="new" priority="57" />
+      <Item value="new" priority="64" />
       <Item value="EndPoint" priority="0" />
       <Item value="Hardware" priority="1" />
       <Item value="inputPort" priority="1" />
@@ -107,19 +103,19 @@
       <Item value="InterruptPort" priority="0" />
       <Item value="InterruptEdgeHigh" priority="1" />
       <Item value="time" priority="0" />
-      <Item value="static" priority="1" />
-      <Item value="void" priority="10" />
+      <Item value="static" priority="2" />
+      <Item value="void" priority="12" />
       <Item value="port" priority="1" />
-      <Item value="var" priority="14" />
+      <Item value="var" priority="16" />
       <Item value="Port`0" priority="1" />
       <Item value="closePort" priority="0" />
-      <Item value="if" priority="36" />
+      <Item value="if" priority="43" />
       <Item value="data2" priority="4" />
-      <Item value="else" priority="4" />
+      <Item value="else" priority="6" />
       <Item value="window" priority="1" />
       <Item value="AlarmModule" priority="0" />
       <Item value="Detector`0" priority="0" />
-      <Item value="alarm" priority="25" />
+      <Item value="alarm" priority="26" />
       <Item value="pin" priority="2" />
       <Item value="IDetector`0" priority="1" />
       <Item value="windowPort" priority="1" />
@@ -131,24 +127,24 @@
       <Item value="throw" priority="0" />
       <Item value="StatusChanged" priority="0" />
       <Item value="StatusChangedHandlerArgs" priority="0" />
-      <Item value="ctor" priority="7" />
+      <Item value="ctor" priority="8" />
       <Item value="Alarm" priority="1" />
-      <Item value="isAlarm" priority="0" />
+      <Item value="isAlarm" priority="3" />
       <Item value="IDetector" priority="1" />
       <Item value="_alarm" priority="7" />
       <Item value="this" priority="3" />
       <Item value="string" priority="22" />
       <Item value="detector" priority="2" />
-      <Item value="return" priority="23" />
+      <Item value="return" priority="25" />
       <Item value="_port" priority="0" />
-      <Item value="private" priority="6" />
-      <Item value="readonly" priority="0" />
+      <Item value="private" priority="8" />
+      <Item value="readonly" priority="1" />
       <Item value="_defaultClosed" priority="2" />
       <Item value="uint" priority="0" />
       <Item value="GetTriggerData2Value`0" priority="0" />
       <Item value="IsInTriggerdState`0" priority="0" />
       <Item value="_isOn" priority="7" />
-      <Item value="false" priority="13" />
+      <Item value="false" priority="15" />
       <Item value="foreach" priority="11" />
       <Item value="in" priority="0" />
       <Item value="volumeInfo" priority="1" />
@@ -159,11 +155,11 @@
       <Item value="Alarm`0" priority="0" />
       <Item value="AlarmConfig`0" priority="0" />
       <Item value="config" priority="1" />
-      <Item value="_config" priority="8" />
+      <Item value="_config" priority="10" />
       <Item value="_connector" priority="4" />
       <Item value="networkInterface" priority="5" />
       <Item value="interfaces" priority="0" />
-      <Item value="null" priority="5" />
+      <Item value="null" priority="6" />
       <Item value="_interface" priority="2" />
       <Item value="GetInterface`0" priority="0" />
       <Item value="_serverAddress" priority="0" />
@@ -177,18 +173,18 @@
       <Item value="AssemblyVersionAttribute`0" priority="0" />
       <Item value="HttpGet" priority="0" />
       <Item value="AllowGet" priority="0" />
-      <Item value="public" priority="19" />
+      <Item value="public" priority="22" />
       <Item value="interface" priority="3" />
       <Item value="IAlarm`0" priority="4" />
       <Item value="keyStore" priority="0" />
-      <Item value="int" priority="0" />
+      <Item value="int" priority="2" />
       <Item value="turnedOn" priority="0" />
       <Item value="Hashtable" priority="1" />
       <Item value="_codes" priority="3" />
       <Item value="Keypad`0" priority="0" />
       <Item value="UserStore`0" priority="2" />
       <Item value="char" priority="10" />
-      <Item value="const" priority="0" />
+      <Item value="const" priority="1" />
       <Item value="pins" priority="0" />
       <Item value="MTAThreadAttribute`0" priority="0" />
       <Item value="_currPort" priority="1" />
@@ -203,7 +199,7 @@
       <Item value="_keyMap" priority="0" />
       <Item value="_colPorts" priority="1" />
       <Item value="_rowPorts" priority="3" />
-      <Item value="OutputPort" priority="3" />
+      <Item value="OutputPort" priority="4" />
       <Item value="colPins" priority="0" />
       <Item value="rowPins" priority="0" />
       <Item value="SimpleKeysKeyMap`0" priority="0" />
@@ -243,7 +239,7 @@
       <Item value="as" priority="5" />
       <Item value="IDevice`0" priority="5" />
       <Item value="device" priority="6" />
-      <Item value="is" priority="4" />
+      <Item value="is" priority="10" />
       <Item value="IIndicator`0" priority="8" />
       <Item value="indicatorUpdate" priority="6" />
       <Item value="DateTime`0" priority="1" />
@@ -280,7 +276,7 @@
       <Item value="IndicatorDispatcher" priority="0" />
       <Item value="ICommandHandler`0" priority="3" />
       <Item value="CommandHandler`0" priority="1" />
-      <Item value="_handler" priority="0" />
+      <Item value="_handler" priority="2" />
       <Item value="DeviceSelector`0" priority="0" />
       <Item value="IRuntimeDevice`0" priority="3" />
       <Item value="handler" priority="2" />
@@ -292,11 +288,11 @@
       <Item value="_greenPort" priority="3" />
       <Item value="isOn" priority="0" />
       <Item value="greenPort" priority="0" />
-      <Item value="_redPort" priority="5" />
+      <Item value="_redPort" priority="6" />
       <Item value="redPort" priority="0" />
       <Item value="RedGreenIndicator`0" priority="0" />
       <Item value="greenPin" priority="0" />
-      <Item value="redPin" priority="0" />
+      <Item value="redPin" priority="1" />
       <Item value="PowerEventType`0" priority="0" />
       <Item value="Type" priority="0" />
       <Item value="IIndicatorUpdate`0" priority="0" />
@@ -304,16 +300,29 @@
       <Item value="AlarmTriggerdIndicatorUpdate`0" priority="0" />
       <Item value="_blinkRed" priority="3" />
       <Item value="IEvent`0" priority="0" />
-      <Item value="BootEvent`0" priority="1" />
-      <Item value="receivedEvent" priority="0" />
+      <Item value="BootEvent`0" priority="3" />
+      <Item value="receivedEvent" priority="4" />
       <Item value="_lastSwitch" priority="1" />
-      <Item value="Timer`0" priority="1" />
-      <Item value="_timer" priority="1" />
+      <Item value="Timer`0" priority="2" />
+      <Item value="_timer" priority="6" />
       <Item value="Timer" priority="0" />
       <Item value="TimerCallback`0" priority="1" />
       <Item value="object" priority="0" />
       <Item value="TimerCallback" priority="0" />
       <Item value="SwitchLight`0" priority="0" />
+      <Item value="ActivatedEvent`0" priority="0" />
+      <Item value="isActive" priority="1" />
+      <Item value="DeactivatedEvent`0" priority="0" />
+      <Item value="isDeactive" priority="0" />
+      <Item value="_isAlarm" priority="0" />
+      <Item value="EventDispatcher`0" priority="2" />
+      <Item value="Trigger`0" priority="0" />
+      <Item value="_attempts" priority="5" />
+      <Item value="EventDispatcher" priority="0" />
+      <Item value="AlarmTriggerdEvent`0" priority="0" />
+      <Item value="InvalidLoginEvent`0" priority="0" />
+      <Item value="MaxLoginAttemtps" priority="0" />
+      <Item value="InvalidLoginDetector`0" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@DeviceSolutions.SPOT.Hardware.Tahoe">
       <Item value="Pins`0" priority="4" />
@@ -471,7 +480,7 @@
       <Item value="ValidatedUser" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Contracts.AlarmConfig">
-      <Item value="Devices" priority="4" />
+      <Item value="Devices" priority="6" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Devices.Indicators.IIndicator">
       <Item value="ReceiveStatusUpdate`0" priority="1" />
@@ -491,7 +500,7 @@
       <Item value="Count" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Contracts.ICommandHandler">
-      <Item value="Handle`0" priority="2" />
+      <Item value="Handle`0" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Devices.IDetector">
       <Item value="Name" priority="0" />
@@ -500,10 +509,16 @@
       <Item value="Dispatch`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Logging.IEventDispatcher">
-      <Item value="Dispatch`0" priority="0" />
+      <Item value="Dispatch`0" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Logging.IEvent">
       <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Timer">
+      <Item value="Dispose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Core.InvalidLoginDetector">
+      <Item value="Initialize`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

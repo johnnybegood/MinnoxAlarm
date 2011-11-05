@@ -7,7 +7,7 @@ namespace JBG.Minnox.Alarm.Commands
     {
         public void Execute(IAlarm alarm)
         {
-            alarm.EventDispatcher.Dispatch(new InvalidLoginAttemptStatus());
+            alarm.EventDispatcher.Dispatch(new InvalidLoginEvent());
         }
     }
 }

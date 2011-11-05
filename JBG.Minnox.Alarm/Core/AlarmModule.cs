@@ -11,12 +11,12 @@ namespace JBG.Minnox.Alarm.Core
         private readonly AlarmConfig _config;
         private readonly ServerConnector _connector;
         private readonly CommandHandler _handler;
-
+        
         public AlarmModule(AlarmConfig config)
         {
             _config = config;
             _handler = new CommandHandler(this);
-            CurrentStatus = AlarmStatus.Off;
+            CurrentStatus = AlarmStatus.Deactivated;
             _connector = new ServerConnector(_config.ServerAddress);
             EventDispatcher = new EventDispatcher(DeviceSelector.GetIndicators(_config.Devices));
 
@@ -38,14 +38,14 @@ namespace JBG.Minnox.Alarm.Core
             command.Execute(this);
         }
 
-        public void TurnOn()
+        public void Activate()
         {
-            CurrentStatus = AlarmStatus.On;
+            CurrentStatus = AlarmStatus.Activated;
         }
 
-        public void TurnOff()
+        public void Deactivate()
         {
-            CurrentStatus = AlarmStatus.Off;
+            CurrentStatus = AlarmStatus.Deactivated;
         }
 
         #endregion
@@ -56,7 +56,7 @@ namespace JBG.Minnox.Alarm.Core
                 sensor.Initialize(_handler);
 
             _connector.Connect();
-            new BootCommand().Execute(this);
+            EventDispatcher.Dispatch(new BootEvent());
         }
 
         public void Loop()

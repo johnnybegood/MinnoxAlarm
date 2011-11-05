@@ -5,14 +5,14 @@ using Microsoft.SPOT.Hardware;
 
 namespace JBG.Minnox.Alarm.Devices.Indicators
 {
-    public class RedGreenIndicator : IIndicator, IDisposable
+    public class RedGreenEventReceiver : IEventReceiver, IDisposable
     {
         private readonly Timer _timer;
         private readonly OutputPort _greenPort;
         private readonly OutputPort _redPort;
         private bool _isAlarm;
 
-        public RedGreenIndicator(Cpu.Pin greenPin, Cpu.Pin redPin)
+        public RedGreenEventReceiver(Cpu.Pin greenPin, Cpu.Pin redPin)
         {
             _greenPort = new OutputPort(greenPin, false);
             _redPort = new OutputPort(redPin, false);

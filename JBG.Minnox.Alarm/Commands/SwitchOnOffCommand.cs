@@ -17,11 +17,11 @@ namespace JBG.Minnox.Alarm.Commands
         {
             switch (alarm.CurrentStatus)
             {
-                case AlarmStatus.On:
+                case AlarmStatus.Activated:
                 case AlarmStatus.Triggerd:
                     alarm.Receive(new TurnOffCommand(_initiator));
                     break;
-                case AlarmStatus.Off:
+                case AlarmStatus.Deactivated:
                     alarm.Receive(new TurnOnCommand(_initiator));
                     break;
             }

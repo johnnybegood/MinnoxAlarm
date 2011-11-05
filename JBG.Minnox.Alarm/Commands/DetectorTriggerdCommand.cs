@@ -15,7 +15,7 @@ namespace JBG.Minnox.Alarm.Commands
 
         public void Execute(IAlarm alarm)
         {
-            if (alarm.CurrentStatus != AlarmStatus.On) return;
+            if (alarm.CurrentStatus != AlarmStatus.Activated) return;
 
             alarm.Trigger();
             alarm.EventDispatcher.Dispatch(new AlarmTriggerdEvent(_detector));

@@ -30,7 +30,6 @@
   </PropertyGroup>
   <Import Project="$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets" />
   <ItemGroup>
-    <Compile Include="Commands\BootCommand.cs" />
     <Compile Include="Commands\DetectorTriggerdCommand.cs" />
     <Compile Include="Commands\InvalidLoginAttemptCommand.cs" />
     <Compile Include="Commands\TurnOffCommand.cs" />
@@ -50,9 +49,10 @@
     <Compile Include="Devices\IDevice.cs" />
     <Compile Include="Devices\IKeymap.cs" />
     <Compile Include="Devices\IKeypad.cs" />
-    <Compile Include="Devices\Indicators\DebugIndicator.cs" />
-    <Compile Include="Devices\Indicators\IIndicator.cs" />
-    <Compile Include="Devices\Indicators\RedGreenIndicator.cs" />
+    <Compile Include="Devices\Indicators\DebugEventReceiver.cs" />
+    <Compile Include="Devices\Indicators\IEventReceiver.cs" />
+    <Compile Include="Devices\Indicators\RedGreenEventReceiver.cs" />
+    <Compile Include="Devices\InvalidLoginDetector.cs" />
     <Compile Include="Devices\IRuntimeDevice.cs" />
     <Compile Include="Devices\Keypad\MatrixKeypad.cs" />
     <Compile Include="Devices\Keypad\MatrixKeypadConfig.cs" />
@@ -64,7 +64,7 @@
     <Compile Include="Logging\IEventDispatcher.cs" />
     <Compile Include="Logging\IEvent.cs" />
     <Compile Include="Logging\EventDispatcher.cs" />
-    <Compile Include="Logging\InvalidLoginAttemptStatus.cs" />
+    <Compile Include="Logging\InvalidLoginEvent.cs" />
     <Compile Include="Logging\DeactivatedEvent.cs" />
     <Compile Include="Logging\ActivatedEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

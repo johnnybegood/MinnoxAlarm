@@ -49,8 +49,9 @@ namespace JBG.Minnox.AlarmModule
                                          {
                                              new Window(Meridian.Pins.GPIO1, true, "Bureau"),
                                              new MatrixKeypad(matrixKeypadConfig),
-                                             new DebugIndicator(),
-                                             new RedGreenIndicator(Meridian.Pins.GPIO2, Meridian.Pins.GPIO10)
+                                             new DebugEventReceiver(),
+                                             new RedGreenEventReceiver(Meridian.Pins.GPIO2, Meridian.Pins.GPIO10),
+                                             new InvalidLoginDetector(3)
                                          },
                            ServerAddress = "192.168.1.20/JBG.Minnox.Director"
                        };

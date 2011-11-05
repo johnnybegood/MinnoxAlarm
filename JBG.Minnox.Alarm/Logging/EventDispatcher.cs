@@ -14,7 +14,7 @@ namespace JBG.Minnox.Alarm.Logging
 
         public void Dispatch(IEvent update)
         {
-            foreach (IIndicator indicator in _indicators)
+            foreach (IEventReceiver indicator in _indicators)
             {
                 indicator.ReceiveEvent(update);
             }

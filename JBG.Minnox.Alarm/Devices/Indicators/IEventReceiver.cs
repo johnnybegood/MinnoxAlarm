@@ -2,7 +2,7 @@
 
 namespace JBG.Minnox.Alarm.Devices.Indicators
 {
-    public interface IIndicator : IDevice
+    public interface IEventReceiver : IDevice
     {
         void ReceiveEvent(IEvent receivedEvent);
     }
