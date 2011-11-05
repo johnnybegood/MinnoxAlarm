@@ -5,37 +5,41 @@ using Microsoft.SPOT.Hardware;
 
 namespace JBG.Minnox.Alarm.Devices.Indicators
 {
-    public class RedGreenIndicator : IIndicator
+    public class RedGreenIndicator : IIndicator, IDisposable
     {
-        private Timer _timer;
+        private readonly Timer _timer;
         private readonly OutputPort _greenPort;
         private readonly OutputPort _redPort;
-        private bool _blinkRed;
-        private DateTime _lastSwitch;
+        private bool _isAlarm;
 
         public RedGreenIndicator(Cpu.Pin greenPin, Cpu.Pin redPin)
         {
             _greenPort = new OutputPort(greenPin, false);
             _redPort = new OutputPort(redPin, false);
-            _blinkRed = false;
-
             _timer = new Timer(SwitchLight, false, 250, 250);
         }
 
         public void ReceiveEvent(IEvent receivedEvent)
         {
-            _blinkRed = receivedEvent is AlarmTriggerdEvent;
-            _greenPort.Write(receivedEvent is DeactivatedEvent || receivedEvent is BootEvent);
-            _redPort.Write(receivedEvent is ActivatedEvent);
+            _isAlarm = receivedEvent is AlarmTriggerdEvent;
+            var isActive = receivedEvent is ActivatedEvent;
+            var isDeactive = receivedEvent is DeactivatedEvent || receivedEvent is BootEvent;
+
+            if ((!_isAlarm && !isActive) && !isDeactive) return; //unkown state
+
+            _redPort.Write(isActive);
+            _greenPort.Write(!_isAlarm && !isActive);
         }
 
         private void SwitchLight(object status)
         {
-            if (_blinkRed)
-            {
+            if (_isAlarm)
                 _redPort.Write(!_redPort.Read());
-            }
         }
 
+        public void Dispose()
+        {
+            _timer.Dispose();
+        }
     }
 }
