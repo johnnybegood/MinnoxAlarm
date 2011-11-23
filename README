@@ -1,0 +1,5 @@
+Minnox is a personal project for my home automation & security. It is based on the .NET Framework and the .NET Micro Framework.
+
+Current used device is a Tahoe but functionality is split from device specific code, so extra devices can easily be added.
+
+WH

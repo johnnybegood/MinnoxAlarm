@@ -1,4 +1,8 @@
-﻿namespace JBG.Minnox.Alarm.Core
+﻿using System;
+using System.Net;
+using Microsoft.SPOT;
+
+namespace JBG.Minnox.Alarm.Core
 {
     public class ServerConnector
     {
@@ -11,18 +15,21 @@
 
         public bool Connect()
         {
-            //using (var request = (HttpWebRequest)WebRequest.Create(string.Concat("http://", _serverAddress, "/Version/")))
-            //{
-            //    request.Method = "GET";
-            //    request.Timeout = 1;
-
-            //    using (var response = request.GetResponse())
-            //    {
-            //        Debug.Print(response.ToString());
-            //    }
-            //}
-
-            return false;
+            try
+            {
+                using (var request = (HttpWebRequest)WebRequest.Create(string.Concat(_serverAddress, "/Version/")))
+                {
+                    using (var response = (HttpWebResponse)request.GetResponse())
+                    {
+                        return response.StatusCode == HttpStatusCode.OK;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.Print(ex.Message);
+                return false;
+            }
         }
     }
 }

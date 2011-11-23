@@ -53,7 +53,7 @@ namespace JBG.Minnox.AlarmModule
                                              new RedGreenEventReceiver(Meridian.Pins.GPIO2, Meridian.Pins.GPIO10),
                                              new InvalidLoginDetector(3)
                                          },
-                           ServerAddress = "192.168.1.20/JBG.Minnox.Director"
+                           ServerAddress = "http://169.254.190.203/JBG.Minnox.Director"
                        };
         }
     }

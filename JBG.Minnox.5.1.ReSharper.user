@@ -9,12 +9,6 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:IDevice.cs" caret="113" fromTop="6" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:AlarmTriggerdEvent.cs" caret="109" fromTop="4" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Helpers/f:Input.cs" caret="500" fromTop="22" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:ValidateCodeResult.cs" caret="58" fromTop="2" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:DeactivatedEvent.cs" caret="312" fromTop="13" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:BootEvent.cs" caret="0" fromTop="0" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Logging/f:IEvent.cs" caret="0" fromTop="0" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Detector/f:Window.cs" caret="520" fromTop="17" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/d:Keypad/f:MatrixKeypad.cs" caret="2159" fromTop="38" />
@@ -36,19 +30,17 @@
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:IDetector.cs" caret="0" fromTop="0" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:IActor.cs" caret="0" fromTop="0" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Contracts/f:IAlarm.cs" caret="394" fromTop="14" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1617" fromTop="26" />
-      <File id="9C40D9A8-E417-4936-B151-D3E37B024131/f:Program.cs" caret="1329" fromTop="4" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:InvalidLoginDetector.cs" caret="873" fromTop="11" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:InvalidLoginDetector.cs" caret="1141" fromTop="17" />
+      <File id="AE692B5B-A38F-44FC-BBD3-50979A97935B/f:Global.asax.cs" caret="1120" fromTop="29" />
+      <File id="9C40D9A8-E417-4936-B151-D3E37B024131/f:Program.cs" caret="2663" fromTop="25" />
+      <File id="AE692B5B-A38F-44FC-BBD3-50979A97935B/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="AE692B5B-A38F-44FC-BBD3-50979A97935B/d:Properties/f:AssemblyInfo.cs" caret="1405" fromTop="35" />
+      <File id="AE692B5B-A38F-44FC-BBD3-50979A97935B/d:Views/d:Home/f:Index.cshtml" caret="65" fromTop="5" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1645" fromTop="32" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:ServerConnector.cs" caret="804" fromTop="28" />
+      <File id="AE692B5B-A38F-44FC-BBD3-50979A97935B/d:Controllers/f:VersionController.cs" caret="257" fromTop="12" />
     </RecentFiles>
     <RecentEdits>
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="32" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="28" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="21" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="28" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="23" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="36" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="79" />
-      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="26" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="21" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1978" fromTop="81" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Commands/f:TurnOnCommand.cs" caret="437" fromTop="19" />
@@ -65,8 +57,20 @@
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="412" fromTop="9" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:AlarmModule.cs" caret="1617" fromTop="26" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:InvalidLoginDetector.cs" caret="383" fromTop="11" />
-      <File id="9C40D9A8-E417-4936-B151-D3E37B024131/f:Program.cs" caret="2490" fromTop="21" />
       <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Devices/f:InvalidLoginDetector.cs" caret="1021" fromTop="14" />
+      <File id="9C40D9A8-E417-4936-B151-D3E37B024131/f:Program.cs" caret="2589" fromTop="23" />
+      <File id="AE692B5B-A38F-44FC-BBD3-50979A97935B/f:Global.asax.cs" caret="856" fromTop="20" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:ServerConnector.cs" caret="892" fromTop="22" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:ServerConnector.cs" caret="295" fromTop="11" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:ServerConnector.cs" caret="892" fromTop="22" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:ServerConnector.cs" caret="892" fromTop="20" />
+      <File id="AE692B5B-A38F-44FC-BBD3-50979A97935B/d:Controllers/f:VersionController.cs" caret="291" fromTop="13" />
+      <File id="AE692B5B-A38F-44FC-BBD3-50979A97935B/d:Views/d:Home/f:Index.cshtml" caret="58" fromTop="4" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:ServerConnector.cs" caret="892" fromTop="19" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:ServerConnector.cs" caret="740" fromTop="23" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:ServerConnector.cs" caret="844" fromTop="27" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:ServerConnector.cs" caret="877" fromTop="28" />
+      <File id="A4557149-95FC-4AEA-A0F6-67490B83AD45/d:Core/f:ServerConnector.cs" caret="494" fromTop="11" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -94,11 +98,11 @@
       <Item value="InputPort" priority="1" />
       <Item value="Tahoe`0" priority="2" />
       <Item value="Meridian`0" priority="4" />
-      <Item value="true" priority="11" />
+      <Item value="true" priority="12" />
       <Item value="Disabled" priority="4" />
       <Item value="while" priority="1" />
       <Item value="RuntimeArgumentHandle`0" priority="0" />
-      <Item value="Debug`0" priority="9" />
+      <Item value="Debug`0" priority="10" />
       <Item value="InterruptPort`0" priority="2" />
       <Item value="InterruptPort" priority="0" />
       <Item value="InterruptEdgeHigh" priority="1" />
@@ -109,7 +113,7 @@
       <Item value="var" priority="16" />
       <Item value="Port`0" priority="1" />
       <Item value="closePort" priority="0" />
-      <Item value="if" priority="43" />
+      <Item value="if" priority="44" />
       <Item value="data2" priority="4" />
       <Item value="else" priority="6" />
       <Item value="window" priority="1" />
@@ -135,7 +139,7 @@
       <Item value="this" priority="3" />
       <Item value="string" priority="22" />
       <Item value="detector" priority="2" />
-      <Item value="return" priority="25" />
+      <Item value="return" priority="27" />
       <Item value="_port" priority="0" />
       <Item value="private" priority="8" />
       <Item value="readonly" priority="1" />
@@ -144,7 +148,7 @@
       <Item value="GetTriggerData2Value`0" priority="0" />
       <Item value="IsInTriggerdState`0" priority="0" />
       <Item value="_isOn" priority="7" />
-      <Item value="false" priority="15" />
+      <Item value="false" priority="16" />
       <Item value="foreach" priority="11" />
       <Item value="in" priority="0" />
       <Item value="volumeInfo" priority="1" />
@@ -165,11 +169,11 @@
       <Item value="_serverAddress" priority="0" />
       <Item value="HttpWebRequest`0" priority="0" />
       <Item value="request" priority="3" />
-      <Item value="response" priority="0" />
-      <Item value="using" priority="0" />
+      <Item value="response" priority="2" />
+      <Item value="using" priority="1" />
       <Item value="JsonResult`0" priority="0" />
       <Item value="Json`0" priority="0" />
-      <Item value="Assembly`0" priority="0" />
+      <Item value="Assembly`0" priority="1" />
       <Item value="AssemblyVersionAttribute`0" priority="0" />
       <Item value="HttpGet" priority="0" />
       <Item value="AllowGet" priority="0" />
@@ -323,6 +327,9 @@
       <Item value="InvalidLoginEvent`0" priority="0" />
       <Item value="MaxLoginAttemtps" priority="0" />
       <Item value="InvalidLoginDetector`0" priority="2" />
+      <Item value="OK" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="ex" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@DeviceSolutions.SPOT.Hardware.Tahoe">
       <Item value="Pins`0" priority="4" />
@@ -344,7 +351,7 @@
       <Item value="OnInterrupt" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Microsoft.SPOT.Debug">
-      <Item value="Print`0" priority="13" />
+      <Item value="Print`0" priority="14" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Microsoft.SPOT.Hardware.Port+ResistorMode">
       <Item value="PullDown" priority="4" />
@@ -405,14 +412,17 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Net.WebResponse">
       <Item value="ToString`0" priority="0" />
+      <Item value="ContentLength" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Reflection.Assembly">
-      <Item value="GetEntryAssembly`0" priority="2" />
+      <Item value="GetEntryAssembly`0" priority="4" />
       <Item value="GetCallingAssembly`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Reflection.Assembly">
-      <Item value="ManifestModule" priority="0" />
-      <Item value="GetCustomAttributes`0" priority="0" />
+      <Item value="ManifestModule" priority="1" />
+      <Item value="GetCustomAttributes`0" priority="1" />
+      <Item value="Evidence" priority="0" />
+      <Item value="CodeBase" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Hashtable">
       <Item value="Contains`0" priority="1" />
@@ -519,6 +529,15 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:JBG.Minnox.Alarm.Core.InvalidLoginDetector">
       <Item value="Initialize`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int64">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.HttpWebResponse">
+      <Item value="StatusCode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
